@@ -27,5 +27,5 @@ def getAnswer(answerNumber):
 
 # generates a random number 1-9 &
 # passes it to, and calls the 'getAnswer' function &
-# and prints the result
+# prints the return result
 print(getAnswer(random.randint(1, 9)))
