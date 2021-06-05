@@ -5,6 +5,8 @@ A repo of projects written in the Python programming language
 
 Mostly tutorial-style, simple programs while I learn how to code...
 
+![learning Python image](imgs/pythonThriller.png)
+
 ## atbswp
 > Automate the Boring Stuff with Python by Al Sweigart
 
@@ -20,5 +22,3 @@ Sample projects from the book, annotated with comments:
 * madlibs -- a **very** simple madlibs program
 * rockPaperScissors -- the classic Rock, Paper, Scissors game as a program
 * guessTheNumber -- guess the computer's number, or computer guesses your number
-
-![learning Python image](imgs/pythonThriller.png)
