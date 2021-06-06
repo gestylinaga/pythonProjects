@@ -24,3 +24,8 @@ Sample projects from the book, annotated with comments:
 * **guessTheNumber** -- guess the computer's randomly chosen number game
 * **madlibs** -- a *very* simple madlibs program
 * **rockPaperScissors** -- the classic Rock, Paper, Scissors game as a program
+
+## self
+> Scripts I wrote myself -- Gesty Linaga
+
+* **guessingGame** -- a combination of the computerGuess/guessTheNumber games with a menu
