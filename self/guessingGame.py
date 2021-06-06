@@ -1,9 +1,11 @@
 #!/usr/bin/python3
 # a Random Numbers Guessing Game
+# a Combination of computerGuess.py and guessTheNumber.py with a Menu System
+# by Gesty Linaga
 
 import random, time
 
-def userGuess(x):
+def userGuess(x): # User guesses the computer's number
     randomNumber = random.randint(1, x)
     guess = 0
     try:
@@ -17,7 +19,7 @@ def userGuess(x):
     except ValueError:
         print("That's not a number, please enter a number.")
 
-def compGuess(y):
+def compGuess(y): # Computer guesses the user's number
     low = 1
     high = y
     feedback = ''
@@ -39,23 +41,23 @@ def compGuess(y):
         print("Something went wrong...did you make a mistake somewhere?")
 
 
-print("Guess the Number Game! Make a choice: (1 or 2)")
+print("Guess the Number Game! Make a choice: (1 or 2)") # Opening Prompt
 try:
     choice = int(input(" 1. You Guess the Computer's Number \
-        2. The Computer Guesses your Number\n"))
-    while choice != 1 or 2:
-        if choice == 1:
-            ugLimit = int(input("Choose an upper limit to guess (I suggest 10):\n"))
-            userGuess(ugLimit)
-            break
-        elif choice == 2:
-            print("Think of a Number between 1-1000, and I will try to guess it...")
-            time.sleep(2.0)
-            print("Ready? Starting in 5 seconds...") 
-            time.sleep(5.0)
-            compGuess(1000)
-            break
-        else:
-            print(f"You entered: {choice}. Please enter a 1 or a 2")
-except ValueError:
-    print("Invalid input, please enter a number.")
+        2. The Computer Guesses your Number\n"))        # "Menu System"
+    while choice != 1 or 2:                             # loops while no choice is made
+        if choice == 1:                                 # User Guess game
+            ugLimit = int(input("Choose an upper limit to guess (I suggest 10):\n")) # Game prompt
+            userGuess(ugLimit)                          # passes upper limit choice to function
+            break                                       # ends the program when complete
+        elif choice == 2:                               # Computer Guess game
+            print("Think of a Number between 1-1000, and I will try to guess it...") # Game prompt
+            time.sleep(2.0)                             # pauses time, lets user think of a number
+            print("Ready? Starting in 5 seconds...")    # 5 second warning
+            time.sleep(5.0)                             # more time to think
+            compGuess(1000)                             # calls the Computer Guess game
+            break                                       # ends the program when complete
+        else:                                           # only executed if '1' or '2' not selected
+            print(f"You entered: {choice}. Please enter a 1 or a 2") # User error feedback
+except ValueError:                                      # catches any ValueErrors to avoid crashes
+    print("Invalid input. Sorry, Goodbye!")             # exit error message
