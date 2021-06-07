@@ -28,4 +28,5 @@ Sample projects from the book, annotated with comments:
 ## self
 > Scripts I wrote myself -- Gesty Linaga
 
+* **fstring** -- an example/tutorial of 'fstrings' to format strings
 * **guessingGame** -- a combination of the computerGuess/guessTheNumber games with a menu
