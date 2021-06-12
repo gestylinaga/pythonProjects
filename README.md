@@ -17,6 +17,7 @@ Sample projects from the book, annotated with comments:
 * **localGlobal** -- a show in variable scopes, and their effect on same name variables
 * **magic8Ball** -- a remake of *fortune.py* with the use of 'Lists'
 * **ticTacToe** -- a simplified version of the classic game Tic-Tac-Toe
+* **totalBrought** -- a dictionary that stores picnic guests, and the items they brought
 * **zigzag** -- a zigzaging visual toy program
 
 ## yt
