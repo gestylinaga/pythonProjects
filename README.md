@@ -16,6 +16,7 @@ Sample projects from the book, annotated with comments:
 * **fortune** -- a random-number based 'Fortune-Teller'
 * **localGlobal** -- a show in variable scopes, and their effect on same name variables
 * **magic8Ball** -- a remake of *fortune.py* with the use of 'Lists'
+* **ticTacToe** -- a simplified version of the classic game Tic-Tac-Toe
 * **zigzag** -- a zigzaging visual toy program
 
 ## yt
