@@ -11,6 +11,7 @@ Mostly tutorial-style, simple programs while I learn how to code...
 > Automate the Boring Stuff with Python by Al Sweigart
 
 Sample projects from the book, annotated with comments:
+* **birthdays** -- storing birthday information in a dictionary
 * **catNames** -- a program to build/display a list of cat names
 * **fortune** -- a random-number based 'Fortune-Teller'
 * **localGlobal** -- a show in variable scopes, and their effect on same name variables
